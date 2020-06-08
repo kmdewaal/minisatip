@@ -610,8 +610,8 @@ int getAdaptersCount()
 			}
 			if (strlen(lsrc) > 0)
 				lsrc[0]=' ';
-			DEBUGM("Adpater %d enabled sources:%s", i, lsrc);
-			DEBUGM("Adpater %d debug sources: %s (%lu)", i, ad->debug_pos, ad->debug_src);
+			DEBUGM("Adapter %d enabled sources:%s", i, lsrc);
+			DEBUGM("Adapter %d debug sources: %s (%lu)", i, ad->debug_pos, ad->debug_src);
 		}
 	return tuner_s2 + tuner_c2 + tuner_t2 + tuner_c + tuner_t;
 }
